@@ -1,0 +1,20 @@
+[project]
+name = "Comfyui_Show_Text_Panel"
+version = "0.1.0"
+description = "实现文本数据显示的节点"
+authors = [{name = "徐鹏", email = "raymond.xu@booming.one"}]
+requires-python = ">=3.10"
+dependencies = ["numpy","pandas"]
+
+[project.optional-dependencies]
+dev = []
+
+[tool.setuptools]
+packages = ["Comfyui_Show_Text_Panel"]
+
+[project.urls]
+Repository = "https://github.com/fogyisland/Comfyui_Show_Text_Panel"
+
+[build-system]
+requires = ["setuptools>=42", "wheel"]
+build-backend = "setuptools.build_meta"

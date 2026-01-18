@@ -1,0 +1,99 @@
+{
+  "id": "366e146c-c588-4dca-8b55-1e6295ec7776",
+  "revision": 0,
+  "last_node_id": 78,
+  "last_link_id": 110,
+  "nodes": [
+    {
+      "id": 77,
+      "type": "ComfyUIShowText",
+      "pos": [
+        827.2036136557838,
+        382.0151909090911
+      ],
+      "size": [
+        171.0337890625,
+        88
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "text",
+          "type": "STRING",
+          "link": 110
+        }
+      ],
+      "outputs": [
+        {
+          "name": "text",
+          "shape": 6,
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ComfyUIShowText"
+      },
+      "widgets_values": [
+        "hello nice to meet you"
+      ]
+    },
+    {
+      "id": 78,
+      "type": "PrimitiveStringMultiline",
+      "pos": [
+        69.93088638305663,
+        284.99039752066153
+      ],
+      "size": [
+        400,
+        200
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [
+        {
+          "name": "STRING",
+          "type": "STRING",
+          "links": [
+            110
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "PrimitiveStringMultiline"
+      },
+      "widgets_values": [
+        "hello nice to meet you"
+      ]
+    }
+  ],
+  "links": [
+    [
+      110,
+      78,
+      0,
+      77,
+      0,
+      "STRING"
+    ]
+  ],
+  "groups": [],
+  "config": {},
+  "extra": {
+    "ds": {
+      "scale": 1.2100000000000002,
+      "offset": [
+        86.26746072438144,
+        -92.84163719008282
+      ]
+    },
+    "workflowRendererVersion": "LG",
+    "frontendVersion": "1.35.9"
+  },
+  "version": 0.4
+}
