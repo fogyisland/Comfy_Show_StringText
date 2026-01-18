@@ -21,7 +21,7 @@ String: text
 # 或说明如何在工作流中连接此节点
 典型工作流
 
-![alt text](workflow.png)
+![alt text](https://github.com/fogyisland/Comfy_Show_StringText/blob/main/Workflow/workflow.png)
 [图片说明文字]
 
 更新日志
